@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link href="./styles.css" rel="stylesheet">
+    <title>添加音乐</title>
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+     <button id="selectBtn" type="button" class="btn btn-primary mt-4">
+       选择音乐
+     </button>
+     <button id="addMusic" type="button" class="btn btn-info mt-4">
+       导入音乐
+    </button>
+     <div id="musicList" class="mb-2 mt-4">您还未选择任何音乐文件</div>
+    </div>
+    <script src="./add.js"></script>
+  </body>
+</html>
